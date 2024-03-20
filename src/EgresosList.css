@@ -1,0 +1,69 @@
+/* Estilos para el contenedor principal */
+.egresos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el formulario de nuevo egreso */
+.nuevo-egreso {
+    margin-bottom: 20px;
+}
+
+.nuevo-egreso h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.nuevo-egreso input[type="text"],
+.nuevo-egreso input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.nuevo-egreso button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.nuevo-egreso button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la lista de egresos */
+.lista-egresos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-egresos li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.lista-egresos li div {
+    font-size: 1rem;
+}
+
+/* Estilos para los títulos */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}

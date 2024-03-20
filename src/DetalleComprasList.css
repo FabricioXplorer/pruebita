@@ -1,0 +1,57 @@
+.detalle-compras-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .productos-disponibles {
+    margin-bottom: 30px;
+  }
+  
+  .producto-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .producto-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .producto-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .compra-actual {
+    margin-top: 30px;
+  }
+  
+  .compra-actual label {
+    margin-right: 10px;
+  }
+  
+  .compra-actual select,
+  .compra-actual input[type="number"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .compra-actual button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .compra-actual button:hover {
+    background-color: #218838;
+  }
+  

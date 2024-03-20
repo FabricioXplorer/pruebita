@@ -1,0 +1,92 @@
+/* Estilos para la lista de compras */
+
+.lista-compras {
+    margin-top: 20px;
+}
+
+.lista-compras h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lista-compras ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-compras li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.lista-compras li:last-child {
+    margin-bottom: 0;
+}
+
+.lista-compras .acciones-compra {
+    margin-top: 10px;
+}
+
+.lista-compras button {
+    margin-right: 10px;
+}
+
+/* Estilos para el formulario de nueva compra */
+
+.nueva-compra {
+    margin-top: 20px;
+}
+
+.nueva-compra h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.nueva-compra form {
+    display: flex;
+    flex-direction: column;
+}
+
+.nueva-compra select,
+.nueva-compra input[type="number"],
+.nueva-compra input[type="date"],
+.nueva-compra button {
+    margin-bottom: 10px;
+}
+
+.nueva-compra select,
+.nueva-compra input[type="number"],
+.nueva-compra input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.nueva-compra button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nueva-compra button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos generales */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}

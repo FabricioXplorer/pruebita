@@ -1,0 +1,59 @@
+/* Contenedor principal */
+.proveedores-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+.proveedores-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo de cada proveedor */
+.proveedor-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.proveedor-item:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Nombre del proveedor */
+.proveedor-nombre {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Información adicional */
+.proveedor-info {
+    margin-top: 10px;
+}
+
+.proveedor-info-item {
+    margin-bottom: 8px;
+}
+
+/* Enlaces */
+.proveedor-links {
+    margin-top: 20px;
+}
+
+.proveedor-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.proveedor-link:hover {
+    text-decoration: underline;
+}

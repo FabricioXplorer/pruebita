@@ -1,0 +1,36 @@
+/* VentasList.css */
+
+/* Estilos del contenedor principal */
+.ventas-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado */
+.ventas-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de cada elemento de venta */
+.venta-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para resaltar la información clave */
+.venta-item strong {
+    color: #333;
+}
+
+/* Estilos de la lista de ventas */
+.ventas-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos adicionales si es necesario */

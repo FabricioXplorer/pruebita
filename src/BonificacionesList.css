@@ -1,0 +1,65 @@
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.bonificaciones-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bonificaciones-lista {
+    width: 60%;
+}
+
+.bonificacion-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bonificacion-info {
+    flex: 1;
+}
+
+.bonificacion-buttons button {
+    margin-left: 10px;
+}
+
+.bonificacion-form {
+    width: 35%;
+}
+
+.bonificacion-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.bonificacion-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bonificacion-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.bonificacion-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bonificacion-form button:hover {
+    background-color: #0056b3;
+}
